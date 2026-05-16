@@ -48,11 +48,6 @@ The publisher broadcasts robot telemetry (battery level, motion state, status st
   (publishes)         (RobotStatus.msg)      (subscribes)
 ```
 
-**Node graph (`rqt_graph`):**
-
-> Add your rqt_graph screenshot here
-> `docs/rqt_graph.png`
-
 ### Message Definition
 
 ```
@@ -138,7 +133,7 @@ colcon build
 source install/setup.bash
 ```
 
-> ⚠️ You must run `source install/setup.bash` in **every new terminal** before running nodes.
+> You must run `source install/setup.bash` in **every new terminal** before running nodes.
 
 ---
 
@@ -176,16 +171,6 @@ Is Moving     : True
 Message       : Robot moving
 ========================
 ```
-
----
-
-##  Demo
-
-| rqt_graph | Subscriber Terminal Output |
-|-----------|---------------------------|
-| ![rqt_graph](docs/rqt_graph.png) | ![terminal](docs/terminal_output.png) |
-
-> 📷 Replace placeholders with actual screenshots from your `docs/` folder.
 
 ---
 
